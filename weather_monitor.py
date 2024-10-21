@@ -4,8 +4,8 @@ from datetime import datetime, timezone  # For handling date and time
 import time                             # For adding delays
 import matplotlib.pyplot as plt        # For plotting data
 
-# Replace with your actual API key
-API_KEY = 'a84c353ee4000c91b85d2c4196c6a510'          
+
+API_KEY = 'Replace with your actual API key'          
 CITIES = ['Delhi', 'Mumbai', 'Chennai', 'Bangalore', 'Kolkata', 'Hyderabad']  # List of cities to fetch weather data for
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?q={}&appid={}"   # Base URL for the OpenWeatherMap API
 
