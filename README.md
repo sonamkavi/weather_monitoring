@@ -20,16 +20,27 @@ This Python project monitors weather conditions for multiple cities using the Op
 ## Installation
 
 1. Clone this repository:
-   ```
+  ```
    git clone https://github.com/yourusername/weather-monitoring.git 
    cd weather-monitoring
 
+  ```
+ 2. Set Up Virtual Environment:
    ```
-2. Install the required Python libraries
+  
+   python -m venv venv 
+  
    ```
-   pip install requests pandas matplotlib
+   ```
+   - source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
    ```
+3. Install the required Python libraries
+
+ ```
+   pip install requests pandas matplotlib
+
+ ```
 ## Configuration
 1. API Key: Obtain an API key from OpenWeatherMap by creating a free account.
 
